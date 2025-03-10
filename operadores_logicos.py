@@ -14,3 +14,20 @@ print ("2.El resultado de operar con and es" ,y)
 # Ejemplo 3 Operador or 
 y = False or True
 print ("3.El resultado de operar con or es" ,y)
+
+'''
+Jerarquía de precedencia de operadores (lógicos inclusive)
+1. ()
+2. **
+3. * , / , %
+4. +, -
+5. < , >, <=, >=; !=, ==
+6. not
+7. and
+8. or    
+9. =
+'''
+
+#Ejemplo 4: Jerarquía de operadores 
+y = False and not True or False 
+print ("4. El resultado de operar con jerarquía es:" ,y)
