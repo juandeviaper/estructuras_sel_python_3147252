@@ -5,4 +5,8 @@ Acorde a tablas de verdad
 '''
 #Ejemplo 1: Operador not
 y= not True
-print ("El resultado de operar con not es" ,y)
+print ("1.El resultado de operar con not es" ,y)
+
+#Ejemplo 2: Operador and
+y = False and True
+print ("2.El resultado de operar con and es" ,y)
