@@ -35,3 +35,16 @@ print ("4. El resultado de operar con jerarquía es:" ,y)
 #Ejemplo 5: Operadores relacionales y lógicos 
 y = not 3 > 4 and 4 == 4 or 3 < 2
 print ("5. El resultado de operar con operadores logicos y relacionales es:" ,y)
+
+#Ejemplo 6: Operadores aritméticos, relacionales y lógicos  
+y = 3 + 5 * 2 > 3 and 4 == 4 or 3 < 2
+print ("6. El resultado de operar con operadores aritméticos, relacionales y lógicos es:" ,y)
+
+#Ejemplo 7: Con paréntesis
+y = (3 + 5) * (2 > 3) and 4 == 4 or not 3 < 2
+print ("7. El resultado de operar todo lo anterior con paréntesis:" ,y)
+
+#Ejemplo 8: Todo junto
+y = 4**2 * 3 < 6 / (7 - 5) and 7 * 2 + 1 == 14 or not 3 + 5 < 2
+print ("8. El resultado de operar todo junto es:" ,y)
+
