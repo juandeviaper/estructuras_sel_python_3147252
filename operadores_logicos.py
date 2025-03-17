@@ -48,3 +48,5 @@ print ("7. El resultado de operar todo lo anterior con paréntesis:" ,y)
 y = 4**2 * 3 < 6 / (7 - 5) and 7 * 2 + 1 == 14 or not 3 + 5 < 2
 print ("8. El resultado de operar todo junto es:" ,y)
 
+
+
